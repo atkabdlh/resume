@@ -1,0 +1,111 @@
+{
+  "fullname": "Nur Atikah Abdullah",
+  "phoneNo": "+6 011 1185 4380",
+  "email": "atkabdlh@gmail.com",
+  "websites": [
+    "linkedin.com/in/atkabdlh",
+    "github.com/atkabdlh"
+  ],
+
+  "personalStatement": [
+    "Extremely passionate about problem solving, design and innovation, I am highly motivated to pursue a career in Software Development.",
+    "Proven ability to understand design, requirements and able to provide creative solutions that works in the long run and easy to maintain.",
+    "Able to work both independently and in a team, hardworking, diligent and skilled in multitasking."
+  ],
+  "skillsList": [
+    {
+      "name": "JavaScript",
+      "value": 3
+    },
+    {
+      "name": "HTML",
+      "value": 3
+    },
+    {
+      "name": "CSS",
+      "value": 3
+    },
+    {
+      "name": "TypeScript",
+      "value": 3
+    },
+    {
+      "name": "Java",
+      "value": 2
+    },
+    {
+      "name": "Git",
+      "value": 3
+    },
+    {
+      "name": "SVN",
+      "value": 3
+    },
+    {
+      "name": "SQL",
+      "value": 2
+    },
+    {
+      "name": "NoSQL",
+      "value": 2
+    },
+    {
+      "name": "Angular",
+      "value": 3
+    },
+    {
+      "name": "NodeJS",
+      "value": 2
+    }
+  ],
+  "workHistory": [
+    {
+      "position": "Engineer 1",
+      "start": "May 2020",
+      "end": "Current",
+      "company": "Mimos Berhad, Bukit Jalil, Kuala Lumpur",
+      "desc": [
+        "Assisting test team in verifying fixed bugs, preparing test cases and doing end to end testing.",
+        "Fixing bugs and implementing improvements to the system based on requirements and UAT and PAT results.",
+        "Work closely with Testers and BA to devise solutions that can work in the long run."
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "start": "March 2019",
+      "end": "January 2020",
+      "company": "Radica Software Sdn Bhd, Ipoh, Perak",
+      "desc": [
+        "Troubleshoots and provides technical solutions to end users and clients.",
+        "Assisting in new product development, Electra Cloud.",
+        "Designed, implemented and improved features in Vecta.io."
+      ]
+    },
+    {
+      "position": "Intern",
+      "start": "August 2018",
+      "end": "January 2019",
+      "company": "Radica Software Sdn Bhd, Ipoh, Perak",
+      "desc": [
+        "Conducted regression testing, analyzed results and submit it to the development team.",
+        "Proactively devised innovative solutions in plugin form for Vecta.io."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "programme": "Bachelor of Information Technology (Hons.) Intelligent Systems Engineering",
+      "start": "September 2015",
+      "end": "October 2019",
+      "school": "University Teknologi MARA - Shah Alam, Selangor"
+    }
+  ],
+  "githubPages": [
+    "portfolio",
+    "mealgen",
+    "calc"
+  ],
+  "dev": {
+    "build": "ng build --prod --output-path docs --base-href /resume/"
+  }
+}

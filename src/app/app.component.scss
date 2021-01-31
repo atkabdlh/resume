@@ -1,0 +1,44 @@
+h1{
+  margin: auto;
+  padding-left: 25px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 20px;
+  width: 84%;
+}
+
+div{
+  margin: auto;
+  width: 84%;
+}
+
+p{
+  margin: 0;
+  padding-left: 40px;
+}
+
+td{
+  width: 50%;
+}
+
+button{
+  margin: 5px 10px;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contacts{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  text-align: center;
+}
+
+#export{
+  text-align: right;
+}

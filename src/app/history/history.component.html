@@ -1,0 +1,14 @@
+<app-title [title]="title"></app-title>
+
+<div class="history" *ngFor="let history of historyObj">
+  <div class="sub-title" *ngIf="history.position">{{ history.position }}</div>
+  <div class="date">{{ history.start }} - {{ history.end }}</div>
+  <div *ngIf="history.company">{{ history.company }}</div>
+  <div *ngIf="history.school">{{ history.school }}</div>
+  <div *ngIf="history.desc">
+    <ul>
+      <li *ngFor="let desc of history.desc">{{ desc }}</li>
+    </ul>
+  </div>
+  <br>
+</div>
